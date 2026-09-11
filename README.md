@@ -1,29 +1,36 @@
-# Welcome to your Lovable project
+# 🐾 VetCare — Sistema de Gestão Veterinária
 
-This project was built with [Lovable](https://lovable.dev).
+O **VetCare** é um sistema web para gestão completa de clínicas veterinárias, integrando o acompanhamento de prontuários médicos, gestão de consultas, tutores, pets e serviços em uma interface responsiva e moderna.
 
-## Build with Lovable
+---
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## 🛠️ Tecnologias Utilizadas
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+* **Frontend:** React, TypeScript, Tailwind CSS, TanStack Query/Start
+* **Backend & API:** Supabase (API RESTful autogerada e autenticação)
+* **Banco de Dados:** PostgreSQL (com criptografia `pgcrypto` / Bcrypt)
+* **Documentação & Diagramas:** Mermaid.js (Diagramas UML e DER)
 
-## Development
+---
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+## 🚀 Funcionalidades Principais
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+* **Gestão de Tutores e Pets:** Cadastro centralizado e histórico de atendimento.
+* **Agendamentos:** Controle de consultas e procedimentos veterinários.
+* **Prontuário Eletrônico:** Registro de diagnósticos, prescrições e vacinação.
+* **Serviços e Finanças:** Tabela de preços e acompanhamento de transações.
 
-## Built with
+---
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## 📦 Como Rodar o Projeto Localmente
+
+### Pré-requisitos
+* [Node.js](https://nodejs.org/) (versão 18 ou superior)
+* Gerenciador de pacotes `npm`
+
+### Passo a passo
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/BeatrizKGF/VetCare.git](https://github.com/BeatrizKGF/VetCare.git)
+   cd VetCare
